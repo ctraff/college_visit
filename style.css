@@ -1,0 +1,57 @@
+        body { margin: 0; font-family: Arial, sans-serif; background-color: black; color: white;}
+
+        .notice {
+            background-color: #e71978;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .notice a { color: white; }
+
+        header { padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap;}
+        header img { width: 200px; }
+        nav { display: flex; gap: 25px; flex-wrap: wrap; }
+        nav a { color: white; text-decoration: none; font-size: 13px; }
+        nav a:hover { color: #e71978; }
+
+        .hero { background-color: #48646a; background-image: url('https://www.northampton.ac.uk/wp-content/uploads/2026/05/open-day-2024-student-ambassador-tour-header-compressed.webp'); background-size: cover; background-position: center; padding: 100px 8%;}
+
+        .hero article { background-color: rgba(0, 0, 0, 0.75); padding: 30px; max-width: 560px;}
+
+        .hero h1 { font-size: 56px; margin: 0; }
+        .hero h2 { font-size: 26px; }
+        .hero p { line-height: 1.5; }
+
+        .btn {
+            background-color: #e71978;
+            color: white;
+            padding: 13px 20px;
+            border: 0;
+            border-radius: 6px;
+            font-weight: bold;
+            cursor: pointer;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        .btn:hover { background-color: #b90e5b; }
+
+        .course { background-color: white; color: black; max-width: 800px; margin: -40px auto 0; padding: 30px; border-top: 8px solid #e71978; border-radius: 6px; text-align: center; position: relative;}
+        .course input { width: 70%; padding: 15px; border: 1px solid #ccc; border-radius: 25px;}
+        .course p { font-size: 14px; }
+        .course a { color: #006db8; margin: 5px; }
+
+        .study { padding: 70px 5%; text-align: center; }
+        .study h2 { font-size: 30px; }
+        .cards { display: flex; gap: 20px; max-width: 1000px; margin: 35px auto; }
+
+        .card { background-color: #46677a; background-size: cover; background-position: center; height: 320px; flex: 1; display: flex; align-items: flex-end; border-radius: 5px; overflow: hidden;}
+
+        .card h3 { background-color: rgba(0, 0, 0, 0.8); width: 100%; padding: 20px 5px; margin: 0; font-size: 18px;}
+
+        .hero .btn { animation: bounce 2s infinite alternate; }
+
+        @keyframes bounce {
+            from { transform: translateY(0px); }
+            to { transform: translateY(-8px); }
+        }
